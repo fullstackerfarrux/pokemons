@@ -3475,10 +3475,6 @@ var pokemons = [
   },
 ];
 
-let h2 = document.querySelector("h2");
-let h3 = document.querySelector("h3");
-let h4 = document.querySelector("h4");
-let img = document.querySelector("img");
 let cards = document.querySelector(".cards");
 pokemons.forEach((p) => {
   let s = document.createElement("div");
