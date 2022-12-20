@@ -3478,7 +3478,7 @@ var pokemons = [
 let cards = document.querySelector(".cards");
 pokemons.forEach((p) => {
   let s = document.createElement("div");
-  s.classList.add(".card1");
+  s.classList.add("card1");
   s.innerHTML = `
     <img src="${p.img}" alt="nmadr" />
     <h2>${p.name}</h2>
@@ -3491,16 +3491,4 @@ pokemons.forEach((p) => {
     <h4>${p.weaknesses}</h4>
 `;
   cards.appendChild(s);
-  s.style.grid = "span 1";
-  s.style.backgroundColor = "#9acd32";
-  s.style.width = "320px";
-  s.style.height = " 470px";
-  s.style.margin = " 20px";
-  s.style.border = "2px solid sienna";
-  s.style.borderRadius = "10px";
-  s.style.display = "flex";
-  s.style.flexDirection = "column";
-  s.style.justifyContent = "center";
-  s.style.alignItems = "center";
-  s.style.padding = "20px";
 });
